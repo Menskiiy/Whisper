@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "login": "Hello",
+        "gender": "Предпочитаю не указывать",
+        "email": "1@1",
+        "password": "$2y$10$8WD516QdEPpauVo5hhgMfebE80\/HR.FypyMyIlLRozmLT2zcDdgfS",
+        "friends": [
+            5
+        ]
+    },
+    {
+        "id": 2,
+        "login": "2",
+        "gender": "Мужской",
+        "email": "2@2",
+        "password": "$2y$10$PJIwlE7y6GyvJOvHHOZ7G.PYXBCIDben5gbQXGDfWIoQaQa.C6m\/S",
+        "friends": [
+            "3",
+            "4",
+            5
+        ],
+        "age": 14
+    },
+    {
+        "id": 3,
+        "login": "3",
+        "gender": "Мужской",
+        "email": "3@3",
+        "password": "$2y$10$Yl6Cx\/weeMwQXJ9g4ztnnOznu4IgEdPpWjzaVdeOaxPeydNXvEef.",
+        "friends": [
+            2,
+            5
+        ]
+    },
+    {
+        "id": 4,
+        "login": "4",
+        "gender": "Мужской",
+        "email": "4@4",
+        "password": "$2y$10$6oayz9W2jTx8Zs5euN\/Ra.pQ\/pWGIeUHTWZT6Ft9CgL3iZIme04ny",
+        "friends": [
+            2,
+            5
+        ]
+    },
+    {
+        "id": 5,
+        "login": "Maxim",
+        "gender": "Мужской",
+        "email": "Maxim@Maxim",
+        "password": "$2y$10$MVIHdaMUpmnQGMwKCi.gYOu1VyiUKe6JYWLnOxlyjlaReqrN2G1R6",
+        "friends": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "age": 18
+    }
+]

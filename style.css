@@ -1,0 +1,229 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Цвет фона страницы */
+    background-image: url('background_site.gif'); /* Фоновое изображение */
+    background-size: cover; /* Полное покрытие фоном */
+    background-position: center; /* Выравнивание фона по центру */
+    background-repeat: no-repeat; /* Запрещаем повторение фона */
+    background-attachment: fixed; /* Фиксированный фон */
+    min-height: 100vh; /* Устанавливаем минимальную высоту страницы как 100% высоты окна */
+    overflow-x: hidden; /* Запрещаем горизонтальный скроллинг */
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем отступы по умолчанию */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-settings {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-settings h2 {
+    cursor: pointer;
+}
+
+.profile-settings-content {
+    display: none;
+    padding: 10px 0;
+}
+
+.profile-settings-content.show {
+    display: block;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-details h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.user-gender {
+    font-size: 16px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.post-section {
+    margin-bottom: 20px;
+}
+
+.post-item .author-name {
+    font-weight: bold;
+}
+
+.post-item .post-date {
+    color: #888;
+    font-size: 14px;
+}
+
+.post-item p {
+    margin: 10px 0;
+}
+
+.post-item .post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.all-images h2 {
+    margin-bottom: 10px;
+}
+
+.all-images .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.all-images .image-list img {
+    max-width: calc(25% - 10px);
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.commands-container {
+    position: fixed;
+    bottom: 20px; /* Отступ от нижнего края экрана */
+    left: 20px; /* Отступ от левого края экрана */
+    display: flex;
+    flex-direction: column;
+}
+
+.command-btn {
+    margin-bottom: 10px; /* Отступ между кнопками */
+    padding: 10px 20px;
+    background-color:rgb(73, 115, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавный переход при наведении */
+}
+
+.command-btn:hover {
+    background-color: rgb(52, 79, 170);
+}
+
+h1 {
+    color: #333;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-images_all {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-details h2 {
+    margin: 0;
+    color: #555;
+}
+
+.user-gender {
+    font-size: 16px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.post-section {
+    margin-top: 20px;
+}
+
+.post-item p {
+    margin: 0;
+}
+
+.post-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.edit-form {
+    margin-top: 10px;
+}
+
+.profile-settings {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-settings h2 {
+    cursor: pointer;
+}
+
+.profile-settings-content {
+    display: none;
+}
+
+.profile-settings-content.show {
+    display: block;
+}
+
+.post-image-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.floating-element {
+    float: right; /* Выровнять заголовок h1 слева */ 
+    margin-right: 15%; /* Добавляем отступ между h1 и остальными элементами */
+}
